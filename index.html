@@ -70,9 +70,9 @@
           </ul>
 
           <div class="links">
-            <a href="#" aria-label="Lien LinkedIn">LinkedIn (à ajouter)</a>
-            <a href="#" aria-label="Lien GitHub">GitHub (à ajouter)</a>
-            <a href="#contact" aria-label="Aller à la section contact">Contact</a>
+            <a href="https://www.linkedin.com/in/diyar-bayli-75a009314/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://diyarbay.github.io/Portfolio/" target="_blank" rel="noopener">Portfolio</a>
+            <a href="#contact">Contact</a>
           </div>
         </aside>
       </div>
@@ -167,7 +167,6 @@
         </div>
       </div>
     </section>
-
     <!-- Stages -->
     <section class="section" id="stages">
       <div class="container">
@@ -186,6 +185,8 @@
             </div>
 
             <h3>EDF — Site Sextant (CEIDRE), Saint-Denis</h3>
+            <img src="images/edf.png" alt="Logo EDF" class="company-logo" />
+
             <p class="muted">
               Service : SI (informatique) • Tuteur : M. Didier CHARRUAU
             </p>
@@ -225,6 +226,8 @@
             </div>
 
             <h3>Mairie de Bures-sur-Yvette — Parc, réseau & support</h3>
+            <img src="images/mairie-bures.png" alt="Logo Mairie de Bures-sur-Yvette" class="company-logo" />
+
             <p class="muted">
               Activités : inventaire du parc, automatisation via clé USB, tri matériel en baie, tests réseau, support utilisateurs.
             </p>
@@ -302,8 +305,7 @@
               Compétences : <strong>B1.1</strong> (patrimoine) • <strong>B1.5</strong> (déploiement de service)
             </p>
           </article>
-
-          <!-- Situation 2 EDF -->
+                    <!-- Situation 2 EDF -->
           <article class="timeline__item card">
             <div class="timeline__meta">
               <span class="badge">Situation n°2</span>
@@ -462,7 +464,6 @@
         </div>
       </div>
     </section>
-
     <!-- Projets -->
     <section class="section section--alt" id="projets">
       <div class="container">
@@ -528,7 +529,7 @@
       <div class="container">
         <div class="section__head">
           <h2>Contact</h2>
-          <p>Coordonnées + formulaire visuel (sans backend).</p>
+          <p>Coordonnées + formulaire fonctionnel (Formspree).</p>
         </div>
 
         <div class="grid-2">
@@ -538,27 +539,47 @@
               <li><strong>Email :</strong> <a href="mailto:diyarbayli38@gmail.com">diyarbayli38@gmail.com</a></li>
               <li><strong>Téléphone :</strong> 07 51 59 29 75</li>
               <li><strong>Adresse :</strong> 22 rue du Royaume, 91440 Bures-sur-Yvette</li>
-              <li><strong>LinkedIn :</strong> <a href="#">À ajouter</a></li>
-              <li><strong>GitHub :</strong> <a href="#">À ajouter</a></li>
+              <li>
+                <strong>LinkedIn :</strong>
+                <a href="https://www.linkedin.com/in/diyar-bayli-75a009314/" target="_blank">
+                  linkedin.com/in/diyar-bayli
+                </a>
+              </li>
+              <li>
+                <strong>Portfolio :</strong>
+                <a href="https://diyarbay.github.io/Portfolio/" target="_blank">
+                  diyarbay.github.io/Portfolio
+                </a>
+              </li>
             </ul>
           </div>
 
-          <form class="card form" action="#" method="post">
+          <form
+            class="card form"
+            action="https://formspree.io/f/xbdkanbg"
+            method="POST"
+          >
             <h3>Message</h3>
+
             <label>
               Nom
               <input type="text" name="name" placeholder="Votre nom" required />
             </label>
+
             <label>
               Email
               <input type="email" name="email" placeholder="votre@email.com" required />
             </label>
+
             <label>
               Message
               <textarea name="message" rows="5" placeholder="Bonjour, je vous contacte pour..." required></textarea>
             </label>
+
+            <input type="hidden" name="_subject" value="Message depuis le portfolio" />
+
             <button class="btn" type="submit">Envoyer</button>
-            <p class="muted small">⚠️ Formulaire visuel (sans backend). Tu peux le rendre fonctionnel plus tard.</p>
+            <p class="muted small">✔️ Formulaire fonctionnel via Formspree</p>
           </form>
         </div>
       </div>
@@ -578,3 +599,4 @@
   </script>
 </body>
 </html>
+
