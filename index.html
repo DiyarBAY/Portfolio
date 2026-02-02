@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Portfolio — Diyar BAYLI (BTS SIO SISR)</title>
-  <link rel="stylesheet" href="style.css" />
   <meta name="description" content="Portfolio de Diyar BAYLI, étudiant en BTS SIO SISR." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body id="top">
@@ -24,10 +24,6 @@
       <a href="#apropos">À propos</a>
       <a href="#competences">Compétences</a>
       <a href="#stages">Stages</a>
-      <a href="#situations">Bloc 1 (E5)</a>
-      <a href="#veille">Veille</a>
-      <a href="#projets">Projets</a>
-      <a href="#cv">CV</a>
       <a href="#contact" class="btn btn--small">Contact</a>
     </nav>
   </div>
@@ -35,19 +31,19 @@
 
 <main>
 
+<!-- HERO -->
 <section class="hero">
   <div class="container hero__grid">
-
     <div>
       <h1>Portfolio — BTS SIO SISR</h1>
       <p class="lead">
-        Étudiant en BTS SIO spécialité SISR, orienté réseaux, support,
-        gestion de parc et automatisation.
+        Étudiant en BTS SIO spécialité SISR, orienté réseaux,
+        support utilisateur, gestion de parc et automatisation.
       </p>
 
       <div class="hero__cta">
         <a class="btn" href="#stages">Voir mes stages</a>
-        <a class="btn btn--ghost" href="#situations">Situations E5</a>
+        <a class="btn btn--ghost" href="#contact">Me contacter</a>
       </div>
     </div>
 
@@ -56,7 +52,7 @@
       <ul class="list">
         <li><strong>Email :</strong> <a href="mailto:diyarbayli38@gmail.com">diyarbayli38@gmail.com</a></li>
         <li><strong>Téléphone :</strong> 07 51 59 29 75</li>
-        <li><strong>Adresse :</strong> Bures-sur-Yvette</li>
+        <li><strong>Localisation :</strong> Bures-sur-Yvette</li>
       </ul>
 
       <div class="links">
@@ -66,10 +62,34 @@
         <a href="https://diyarbay.github.io/Portfolio/" target="_blank" rel="noopener">
           Portfolio en ligne
         </a>
-        <a href="#contact">Contact</a>
       </div>
     </aside>
+  </div>
+</section>
 
+<!-- A PROPOS -->
+<section class="section" id="apropos">
+  <div class="container">
+    <h2>À propos</h2>
+    <p>
+      Étudiant en BTS SIO SISR, avec une formation orientée réseaux,
+      maintenance informatique et support utilisateur.
+      Expérience en environnement professionnel (EDF, collectivité territoriale).
+    </p>
+  </div>
+</section>
+
+<!-- COMPETENCES -->
+<section class="section section--alt" id="competences">
+  <div class="container">
+    <h2>Compétences</h2>
+    <ul class="list">
+      <li>Support utilisateur et dépannage</li>
+      <li>Inventaire et gestion de parc</li>
+      <li>Tests réseau (ping, connectivité)</li>
+      <li>Automatisation (VBA, scripts)</li>
+      <li>Documentation et rigueur professionnelle</li>
+    </ul>
   </div>
 </section>
 
@@ -81,13 +101,11 @@
     <!-- EDF -->
     <article class="card timeline__item">
       <h3>EDF — Site Sextant (CEIDRE)</h3>
-      <img src="images/edf.png" alt="Logo EDF" class="company-logo">
-
+      <img src="images/edf.png" alt="Logo EDF" class="company-logo" />
       <p class="muted">02/06/2025 — 04/07/2025</p>
-
       <ul class="list">
         <li>Développement d’un script VBA de contrôle de conformité</li>
-        <li>Participation aux règles PSSI</li>
+        <li>Respect des règles de cybersécurité (PSSI)</li>
         <li>Réflexion sur la gestion du prêt de matériel</li>
       </ul>
     </article>
@@ -95,27 +113,14 @@
     <!-- MAIRIE -->
     <article class="card timeline__item">
       <h3>Mairie de Bures-sur-Yvette</h3>
-      <img src="images/mairie-bures.png" alt="Logo Mairie de Bures-sur-Yvette" class="company-logo">
-
+      <img src="images/mairie-bures.png" alt="Logo Mairie de Bures-sur-Yvette" class="company-logo" />
       <p class="muted">17/11/2025 — 19/12/2025</p>
-
       <ul class="list">
         <li>Inventaire du parc informatique</li>
-        <li>Script sur clé USB (collecte automatique)</li>
-        <li>Tests réseau (ping) et support utilisateur</li>
+        <li>Script sur clé USB (collecte automatique d’informations)</li>
+        <li>Tests réseau et support aux agents</li>
       </ul>
     </article>
-
-  </div>
-</section>
-
-<!-- CV -->
-<section class="section" id="cv">
-  <div class="container">
-    <h2>CV</h2>
-    <p>
-      <a href="cv.pdf" download>Télécharger mon CV (PDF)</a>
-    </p>
   </div>
 </section>
 
@@ -124,21 +129,44 @@
   <div class="container">
     <h2>Contact</h2>
 
-    <ul class="list">
-      <li><strong>Email :</strong> <a href="mailto:diyarbayli38@gmail.com">diyarbayli38@gmail.com</a></li>
-      <li><strong>LinkedIn :</strong>
-        <a href="https://www.linkedin.com/in/diyar-bayli-75a009314/" target="_blank">
-          linkedin.com/in/diyar-bayli
-        </a>
-      </li>
-      <li><strong>Portfolio :</strong>
-        <a href="https://diyarbay.github.io/Portfolio/" target="_blank">
-          diyarbay.github.io/Portfolio
-        </a>
-      </li>
-    </ul>
+    <form
+      class="card form"
+      action="https://formspree.io/f/xbdkanbg"
+      method="POST"
+    >
+      <h3>Message</h3>
+
+      <label>
+        Nom
+        <input type="text" name="name" required />
+      </label>
+
+      <label>
+        Email
+        <input type="email" name="email" required />
+      </label>
+
+      <label>
+        Message
+        <textarea name="message" rows="5" required></textarea>
+      </label>
+
+      <input
+        type="hidden"
+        name="_subject"
+        value="Nouveau message depuis le portfolio"
+      />
+
+      <button class="btn" type="submit">Envoyer</button>
+
+      <p class="muted small">
+        ✔️ Formulaire fonctionnel (messages envoyés par email)
+      </p>
+    </form>
   </div>
 </section>
+
+</main>
 
 <footer class="footer">
   <div class="container footer__content">
@@ -149,8 +177,6 @@
     <a href="#top">Retour en haut ↑</a>
   </div>
 </footer>
-
-</main>
 
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
