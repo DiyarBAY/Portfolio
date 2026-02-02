@@ -41,8 +41,9 @@
       <h1>Portfolio — BTS SIO (SISR)</h1>
       <p class="lead">
         Je m’appelle <strong>Diyar BAYLI</strong>, étudiant en <strong>BTS SIO</strong>
-        spécialité <strong>SISR</strong>. Intéressé par les réseaux, le support,
-        l’administration système et la cybersécurité.
+        spécialité <strong>SISR</strong>.  
+        Intéressé par les <strong>réseaux</strong>, le <strong>support utilisateur</strong>,
+        l’<strong>administration système</strong> et la <strong>cybersécurité</strong>.
       </p>
     </div>
 
@@ -51,7 +52,7 @@
       <ul class="list">
         <li><strong>Email :</strong> <a href="mailto:diyarbayli38@gmail.com">diyarbayli38@gmail.com</a></li>
         <li><strong>Téléphone :</strong> 07 51 59 29 75</li>
-        <li><strong>Localisation :</strong> Bures-sur-Yvette</li>
+        <li><strong>Adresse :</strong> Bures-sur-Yvette</li>
       </ul>
 
       <div class="links">
@@ -62,16 +63,28 @@
   </div>
 </section>
 
+<!-- À PROPOS -->
+<section class="section" id="apropos">
+  <div class="container">
+    <h2>À propos</h2>
+    <p>
+      Étudiant en BTS SIO spécialité SISR, issu d’un Bac Pro SN option RISC.
+      J’ai acquis une expérience concrète en environnement professionnel
+      à travers des stages chez EDF et dans une collectivité territoriale.
+    </p>
+  </div>
+</section>
+
 <!-- COMPÉTENCES -->
 <section class="section section--alt" id="competences">
   <div class="container">
     <h2>Compétences</h2>
     <ul class="list">
-      <li>Support utilisateur</li>
-      <li>Inventaire et gestion de parc</li>
+      <li>Support utilisateur (diagnostic, résolution, accompagnement)</li>
+      <li>Inventaire et gestion de parc informatique</li>
       <li>Tests réseau (ping, connectivité)</li>
       <li>Automatisation (VBA, scripts)</li>
-      <li>Documentation et rigueur</li>
+      <li>Documentation et rigueur professionnelle</li>
     </ul>
   </div>
 </section>
@@ -81,27 +94,41 @@
   <div class="container">
     <h2>Stages</h2>
 
-    <!-- EDF -->
+    <!-- STAGE EDF -->
     <article class="card timeline__item">
       <h3>EDF — Site Sextant (CEIDRE)</h3>
       <img src="images/edf.png" alt="Logo EDF" class="company-logo">
       <p class="muted">02/06/2025 — 04/07/2025</p>
-      <p>
-        Développement d’un script VBA pour automatiser un contrôle
-        de conformité dans un contexte PSSI.
-      </p>
+
+      <h4>Missions réalisées</h4>
+      <ul class="list">
+        <li>Développement d’un <strong>script VBA</strong> pour automatiser un contrôle de conformité</li>
+        <li>Détection et comptage de fichiers selon des critères définis</li>
+        <li>Génération de résultats exploitables pour le service informatique</li>
+        <li>Participation à des actions de <strong>contrôle sécurité / conformité PSSI</strong></li>
+        <li>Réflexion sur la <strong>gestion du prêt d’équipements</strong> (traçabilité, disponibilité)</li>
+      </ul>
     </article>
 
-    <!-- MAIRIE -->
+    <!-- STAGE MAIRIE -->
     <article class="card timeline__item">
       <h3>Mairie de Bures-sur-Yvette</h3>
       <img src="images/mairie-bures.png" alt="Logo Mairie de Bures-sur-Yvette" class="company-logo">
       <p class="muted">17/11/2025 — 19/12/2025</p>
-      <p>
-        Inventaire du parc informatique, scripts sur clé USB,
-        tests réseau et support aux agents.
-      </p>
+
+      <h4>Missions réalisées</h4>
+      <ul class="list">
+        <li>Réalisation d’un <strong>inventaire complet du parc informatique</strong> (postes, écrans)</li>
+        <li>Collecte d’informations utilisateurs et systèmes (Windows, composants)</li>
+        <li>Utilisation d’un <strong>script sur clé USB</strong> pour automatiser la collecte</li>
+        <li>Gestion du lecteur USB variable (<strong>D:, E:, F:</strong>)</li>
+        <li>Tri de matériel dans la <strong>baie informatique</strong></li>
+        <li>Tests réseau (<strong>ping</strong>) sur Livebox Business</li>
+        <li>Identification d’un équipement réseau non connecté</li>
+        <li><strong>Support utilisateur</strong> : formatage de PC, dépannage réseau, Bluetooth</li>
+      </ul>
     </article>
+
   </div>
 </section>
 
@@ -126,6 +153,8 @@
       <label>Message
         <textarea name="message" rows="5" required></textarea>
       </label>
+
+      <input type="hidden" name="_subject" value="Nouveau message depuis le portfolio">
 
       <button class="btn" type="submit">Envoyer</button>
     </form>
